@@ -31,6 +31,14 @@ This project is an example of how to upload nodejs logs to Elasticsearch and Kib
 
 ---
 
+## IMPORTANT 
+The type of hits must be created in ElasticSearch.
+
+Open Kibana:
+
+- Click on: "Connect to your Elasticsearch index" to create.
+
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
