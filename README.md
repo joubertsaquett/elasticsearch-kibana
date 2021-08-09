@@ -23,7 +23,7 @@ This project is an example of how to upload nodejs logs to Elasticsearch and Kib
     $ npm install
 
     // Back to elasticsearch/
-    $ docker-compose if server.yaml up
+    $ docker-compose -f service.yaml up
 
     // Start nodejs project in elasticsearch/app/
     $ npm run dev
